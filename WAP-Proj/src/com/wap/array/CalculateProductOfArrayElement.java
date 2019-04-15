@@ -1,5 +1,9 @@
 package com.wap.array;
-
+/**
+ * FAQ- how to find product of an array's element?
+ * @author vivek.kumar
+ *
+ */
 public class CalculateProductOfArrayElement {
 
 	
