@@ -3,7 +3,11 @@ package com.wap.array;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
-
+/**
+ * 
+ * @author Vivek.Kumar
+ *
+ */
 public class ConvertArrayIntoList {
 
 	public static void main(String[] args) {
