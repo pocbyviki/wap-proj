@@ -1,0 +1,7 @@
+You can bind Eclipse projects to a SonarQube project (supporting SonarQube servers 5.6+). This operation will make SonarLint use the analyzers, quality profiles and settings defined on your SonarQube server. This is a convenient way of customizing the rules used by SonarLint.
+First step is to configure connection with the SonarQube server:
+In SonarQube server view, right click and choose "New -> Server connection", or directly do "File -> New -> Other... -> SonarLint -> New Server".
+Complete connection details (URL and credentials).
+When using sonarqube.com set your organization. Leave blank for on premise servers or when using default organization.
+Test connection
+Click "Finish" to close the wizard. A background process will start updating configuration from the server (may take a while)
